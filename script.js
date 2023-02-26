@@ -6,8 +6,8 @@ let main=document.getElementById("app")
 function swap(){
     //body.style.backgroundcolor="dark";
     document.body.style.backgroundColor = "dark";
-    button.setAttribute(button_day, button_night)
-    main.setAttribute(day,night)
+    button.setAttribute("class", "button_night")
+    main.setAttribute("class","night")
 
     //console.log("hi")
 }
